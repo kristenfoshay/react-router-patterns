@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: rgb(88, 75, 75) 0 0 15px;
+}
+
+.text a {
+  color: rgb(59, 57, 57);
+}
+
+
+.List {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.List-header {
+  height: 120px;
+  padding: 25px;
+  background-color: rgb(85, 79, 79);
+  color: rgb(240, 221, 221);
+}
+
+.List-header a {
+  color: rgb(182, 235, 189);
+}
+
+.List-title {
+  font-size: 1.5em;
+}
+
+.List-intro {
+  font-size: large;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.NewColor {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(230, 67, 230),rgb(165, 40, 40), rgb(170, 140, 85),  rgb(58, 204, 58),rgb(223, 223, 60), rgb(32, 187, 187), rgb(49, 49, 145));
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.NewColor form {
+  width: 60%;
+  background-color: rgb(236, 205, 205);
+  padding: 50px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NewColor form div {
+  padding: 25px;
 }
